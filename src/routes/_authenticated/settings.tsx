@@ -19,7 +19,7 @@ export const Route = createFileRoute("/_authenticated/settings")({
       { property: "og:description", content: "Profile and appearance settings." },
     ],
   }),
-  component: SettingsPage;
+  component: SettingsPage,
 });
 
 function SettingsPage() {
